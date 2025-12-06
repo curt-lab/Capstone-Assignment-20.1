@@ -36,5 +36,5 @@ be useful for extending the model to other red wines beyond this dataset.  I als
 I also did some initial exploration of how a classification model would perform on the same dataset.  Just to get started I tried a decision tree and a logistic regression model just using default pararmeters.  The results were great, with only 59% and 57% accuracy.  Which is better than a wild guess (1 out of 9, or 11%), but I will do deeper exploration of this by GridSearch over a range of hyperparameters.  
 
 CONCLUSIONS:
-
+I have a solid set of data to build the type of predictive model that I wanted to some meaningful degree.  I will need to work on finding some addtional datasets to more broadly apply the model to provide a more general answer to the business question.  I am not sure if it will be possible to answer the secondary question, but perhaps with some creative data-scaping and data transformation techniques I can come up with something that will work nicely.  I will put a lot of effort into that so I can review it with my advisor in our second 1:1 session in a couple of weeks.
 
