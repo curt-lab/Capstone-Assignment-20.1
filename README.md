@@ -28,4 +28,13 @@ thinking I felt the primary question about scoring with the particular dataset c
 but also could be viewed as a classification problem where each class is one of the ratings (1-9, with 9 being best quality).  So, in my 
 preliminary modeling I started with a simple degree 1 linear regression model and then a degree 2 model.  I also was curious to see what the 
 models would reveal as to the most influential (best) features for modeling using GridSearchCV and SFS (Sequential Feature Selection).  It turned out
+that there were 7 of 11 features that provided the best -MSE score for the degree 1 model.  For the degree 2 model there were only 4 features that 
+provided the best -MSE score and only 3 of those are physical properties (one feature being the square of a physical property).  The two -MSE scores 
+were nearly the same.  So potentially I could have a model that is reasonably good with only 4 of 11 physical properties of the wine.  That could 
+be useful for extending the model to other red wines beyond this dataset.  I also, intend to do more testing with the linear regression models to see how they perform with L1 and L2 regularization models.  
+
+I also did some initial exploration of how a classification model would perform on the same dataset.  Just to get started I tried a decision tree and a logistic regression model just using default pararmeters.  The results were great, with only 59% and 57% accuracy.  Which is better than a wild guess (1 out of 9, or 11%), but I will do deeper exploration of this by GridSearch over a range of hyperparameters.  
+
+CONCLUSIONS:
+
 
