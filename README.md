@@ -1,7 +1,7 @@
 # Capstone-Assignment-20.1
 Initial Report and Exploratory Data Analysis (EDA) 
 The contents and charts in this report are also expressed throughout the comments of the accompanying jupyter notebook file.
-The task was perform EDA on the datasets identified for my capstone project.
+The task was to perform EDA on the datasets identified for my capstone project.
 
 BUSINESS PROBLEM: 
 The problem I had identified and discussed with my advisor was to develop a predictive model that would answer the question:
